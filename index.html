@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input class="PH" type="text" placeholder="Please enter the city name here" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+
+        <div class="weather">
+            <div class="item">
+                <small id = "date">10:36 - Tuesday, 5 Oct '23</small>
+            </div>
+            <h1 class="temp">23°c</h1>
+            <div class="temps">
+                <div class="format">
+                    <div>
+                        <p class="temp_min">23°c</p><p>min</p>
+                    </div>
+                </div>
+                <div class="format">
+                    <div>
+                        <p class="temp_max">23°c</p><p>max</p>
+                    </div>
+                </div>
+            </div>
+            <span class="city">New York,</span><span class="ntng">,</span><span class="country">America</span>
+            <div class="details">
+                <div class="col">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <p class="wind">15 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="date.js"></script>
+
+</body>
+</html>
